@@ -5,6 +5,3 @@ meu nome é Ian Santiago Silveira, eu estudo no senai no segundo ano do ensino m
 ## O que encontrará nesse repertório:
 Meu portifólio do meu segundo e terceiro ano no ensimo médio do senai
 
-[x] Davi pelado
-[] pornografia
-[x] Heitor viado
