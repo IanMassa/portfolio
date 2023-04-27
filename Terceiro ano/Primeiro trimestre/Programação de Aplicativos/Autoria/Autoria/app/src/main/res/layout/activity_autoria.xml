@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/GatoMeme"
+    tools:context=".Autoria">
+
+    <Button
+        android:id="@+id/Botao"
+        android:layout_width="131dp"
+        android:layout_height="77dp"
+        android:text="Aperte aqui"
+        app:iconTint="#FF0000"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="735dp"
+        android:layout_height="461dp"
+        android:tint="#8A7575"
+        app:srcCompat="@android:drawable/bottom_bar"
+        tools:layout_editor_absoluteX="-263dp"
+        tools:layout_editor_absoluteY="-138dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="322dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="251dp"
+        android:autoSizeTextType="uniform"
+        android:autoText="true"
+        android:text="APP acabar com masturbação"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
