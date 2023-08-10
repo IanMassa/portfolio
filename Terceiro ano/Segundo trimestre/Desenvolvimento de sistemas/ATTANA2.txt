@@ -1,0 +1,8 @@
+function ContarPalavras(text) {
+    const palavras = text.split(" ");
+    return palavras.length;
+  }
+  
+  const sentence = "O Heitor joga mal no basquete.";
+  const wordCount = countWords(sentence);
+  console.log(`Número de palavras: ${wordCount}`);

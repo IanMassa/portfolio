@@ -1,0 +1,24 @@
+function calcularArranjo(n, r) {
+  if (n < r) {
+    return "Erro: n deve ser maior ou igual a r";
+  }
+
+  let fn = fatorial(n);
+
+  let fnr = fatorial(n - r);
+
+  let arranjo = fn / fnr;
+
+  return arranjo;
+}
+
+function fatorial(num) {
+  if (num === 0 || num === 1) {
+    return 1;
+  } else {
+    return num * fatorial(num - 1);
+  }
+}
+
+let resultado = calcularArranjo(5, 2);
+console.log(resultado); // Saída: 20
