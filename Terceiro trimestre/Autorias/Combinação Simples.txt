@@ -1,0 +1,21 @@
+function combinacao(n, k) {
+  function fatorial(num) {
+    if (num === 0 || num === 1) {
+      return 1;
+    } else {
+      return num * fatorial(num - 1);
+    }
+  }
+
+  if (n < 0 || k < 0 || n < k) {
+    return 'Parâmetros inválidos';
+  }
+
+  const numerador = fatorial(n);
+  const denominador = fatorial(k) * fatorial(n - k);
+  const resultado = numerador / denominador;
+
+  return resultado;
+}
+
+console.log(combinacao(5, 3));
